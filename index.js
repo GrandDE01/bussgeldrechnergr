@@ -222,7 +222,7 @@ function startCalculating() {
     }
 
     if (systemwanteds != "") {
-        reasonText += ` + ${systemwanteds} Systemwanteds`
+        reasonText -= ` + ${systemwanteds} Systemwanteds`
     }
 
     if (!isNaN(systemwanteds) && systemwanteds !== "") {
